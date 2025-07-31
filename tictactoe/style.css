@@ -1,0 +1,36 @@
+/* General styling */
+.root {
+    -fx-background-color: #2b2b2b;
+    -fx-font-family: "Arial";
+}
+
+/* Title styling */
+#title{
+    -fx-translate-y: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.3), 5, 0, 0, 0);
+    -fx-animation: floating-title 2s infinite alternate;
+}
+
+/* Game Board Buttons */
+
+.button:hover {
+    -fx-background-color: #666;
+    -fx-cursor: hand;
+}
+
+/* Refresh and Toggle Buttons */
+#refresh, #toggle {
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.3), 5, 0, 0, 0);
+}
+
+#refresh:hover, #toggle:hover {
+    -fx-background-color: #777;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+/* Floating labels animation */
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+    -fx-animation: floating-labels 2s infinite alternate;
+}
+
